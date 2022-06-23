@@ -3,7 +3,7 @@
  * @return {number[]}
  */
 
- var runningSum = function(nums) {
+var runningSum = function(nums) {
     output = Array(nums.length)
     rSum = 0
     index = 0
@@ -12,7 +12,7 @@
         output[index] = rSum
         index += 1
     })
-    
+
     return output
 };
 
