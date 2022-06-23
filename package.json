@@ -1,0 +1,25 @@
+{
+  "name": "yeet-code",
+  "version": "1.0.0",
+  "description": "Question solutions executed with the power of friendship and friends.  Helping two new developers develop, and one SE1 reach SE2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kf1232/yeet-code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kf1232/yeet-code/issues"
+  },
+  "homepage": "https://github.com/kf1232/yeet-code#readme",
+  "devDependencies": {
+    "jest": "^28.1.1",
+    "nodemon": "^2.0.18"
+  }
+}
