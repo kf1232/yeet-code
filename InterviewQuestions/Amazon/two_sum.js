@@ -3,6 +3,9 @@
  * @param {number} target
  * @return {number[]}
  */
+
+// view changes
+
  var twoSum = function(nums, target) {
     dict = {}
     for(x = 0; x < nums.length; ++x) {
