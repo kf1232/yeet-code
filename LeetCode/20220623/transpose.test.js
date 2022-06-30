@@ -1,4 +1,4 @@
-const transpose = require("./transpose_matrix")
+const transpose = require("./transpose")
 
 test("Returns an empty array when passed", () => {
     expect(transpose([])).toStrictEqual([])

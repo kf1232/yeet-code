@@ -1,4 +1,4 @@
-const containsDuplicate = require('./contains_duplicate')
+const containsDuplicate = require('./containsDuplicate')
 
 test("An empty array returns false", () => {
     expect(containsDuplicate([])).toBe(false)

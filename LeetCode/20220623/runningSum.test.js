@@ -1,4 +1,4 @@
-const runningSum = require("./running_sum_1d_array")
+const runningSum = require("./runningSum")
 
 test("Returns an empty array when passed", () => {
     expect(runningSum([])).toStrictEqual([])

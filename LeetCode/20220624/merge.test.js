@@ -1,4 +1,4 @@
-const merge = require('./merge_intervals')
+const merge = require('./merge')
 
 
 // Problem 1: [[1,4],[0,4]]

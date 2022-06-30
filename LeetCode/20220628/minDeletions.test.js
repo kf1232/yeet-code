@@ -1,4 +1,4 @@
-const minDeletions = require('./min_del_unique')
+const minDeletions = require('./minDeletions')
 
 
 test("Passing an empty string should return zero changes", () => {

@@ -1,4 +1,4 @@
-const LRUCache = require('./lru_cache')
+const LRUCache = require('./LRUCache')
 
 test("We create a cache, with capacity 1", () => {
     let x = new LRUCache

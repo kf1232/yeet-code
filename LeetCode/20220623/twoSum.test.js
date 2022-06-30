@@ -1,4 +1,4 @@
-const twoSum = require('./two_sum')
+const twoSum = require('./twoSum')
 
 test("Two member array, matching values", () => {
     expect(twoSum([3,3], 6)).toStrictEqual([0, 1])

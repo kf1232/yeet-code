@@ -1,4 +1,4 @@
-const maxBoxesInWarehouse = require('./put_boxes_into_the_warehouse')
+const maxBoxesInWarehouse = require('./maxBoxesInWarehouse')
 
 test("LeetCode: Test case 1", () => {
     expect(maxBoxesInWarehouse([4,3,4,1],[5,3,3,4,1])).toStrictEqual(3)
