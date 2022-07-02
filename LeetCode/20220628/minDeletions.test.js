@@ -20,3 +20,13 @@ test("Passing a string with two character types of the same occurance rate shoul
 test("Passing a string with three character types of the same occurance rate should return three changes", () => {
     expect(minDeletions('aabbcc')).toStrictEqual(3)
 })
+
+/*
+  Edge Cases
+  Valid input for the function
+
+  ? Things that 100% cause errors, invalid input, wrong function calls or something?
+  When invalid data is possible, validate data
+
+
+*/
