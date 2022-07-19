@@ -1,5 +1,7 @@
 var generate = require('./generate')
 
+// 1 <= numRows <= 30
+
 test('1', () => {
     expect(generate(1)).toStrictEqual([[1]])
 })

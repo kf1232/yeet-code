@@ -1,6 +1,9 @@
 /**
  * @param {number} numRows
  * @return {number[][]}
+ * 
+ * Given an integer numRows, return the first numRows of Pascal's triangle.
+ * 
  */
  var generate = function(numRows) {
     if(numRows < 1 || numRows > 30) return null
